@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+</head>
+<body>
+    <form method="post">
+        <label for="uname"> Enter your name: </label> <br>
+        <input type="text" id="uname" title="Name must not be blank or empty" required><br><br>
+        Gender: <input type="radio" name="gen" value="M" title="Select one of these" required> M <input type="radio" name="gen" value="F" title="Select one of these" required> F <br><br>
+        <label for="pass1"> Enter your password: </label> <br>
+        <input type="password" id="pass1" title="Password  must be at least 8 characters long" required><br><br>
+        <label for="pass2"> Confirm your password: </label> <br>
+        <input type="password" id="pass2" title="This password should match the first entered password" required><br><br>   
+        <input type="submit" onclick="f1()" value="Submit">
+    </form>
+    <script src="jsfiles/login.js"></script>
+</body>
+</html>
